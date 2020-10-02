@@ -1,0 +1,282 @@
+/* base styles */
+h1 ,h2 , h3 , h4 , h5 , h6 {
+    font-family: 'Roboto', sans-serif;
+    margin: 25px 0px;
+}
+
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 32px;
+}
+h3{
+    font-size: 28px;
+}
+h4{
+    font-size: 24px;
+}
+h5{
+    font-size: 20px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    max-width: 2160px;
+    font-size: 18px;
+}
+
+body p {
+    line-height: 1.4;
+}
+
+/* defaults */
+img{
+    display: block;
+    max-width: 100%;
+}
+
+section{
+    overflow: auto;
+}
+
+.wrap{
+    
+    padding: 50px;
+}
+
+
+/* repeating */
+
+/* header */
+
+header{
+    background-image: url(../images/conference-hero.jpg) ;
+    
+    text-align: center;
+    color: #ffffff;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+header img {
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 3px solid whitesmoke;
+    padding: 3px;
+    width: 100px ;
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background: #495867;
+
+}
+
+.background-lightblue{
+    background-color: #bdd5ea ;
+}
+
+
+
+/* home page */
+
+
+/* table */
+
+
+.tt{
+    text-align: center;
+    height: 600px;
+    width: 100%;
+    display: inline-block;
+}
+
+table{
+   width:80%;
+   height: 50%;
+   display: inline-block;
+   border-spacing: 5px;
+   font-size: 25px;
+}
+
+th , td {
+    background-color: #ffffff;
+    padding: 15px;
+    height:60px;
+}
+
+th {
+    background-color: rgba(73 , 88, 103 , 1) ;
+}
+
+
+/* three parts */
+
+
+
+.three-parts-section{
+    min-height:400px ;
+    background-image: url(../images/swirl.png);
+    
+}
+
+.three-parts-section img{
+    width: 300px;
+    margin: 0 auto ;
+    border-radius: 50%;
+}
+
+.three-parts-section img:hover{
+    border: 5px solid black;
+    
+}
+
+.three-parts-section-image{
+    width: 40% ;
+    float: left;
+
+}
+
+.three-parts-section-text{
+    width: 60%;
+    float: left;
+
+}
+
+/* double border */
+.double-border{
+    border-top: 1px dashed #495867;
+    border-bottom: 1px dashed #495867;
+}
+
+.border{
+    border-top: 1px dashed #495867;
+}
+
+/* two col */
+#two-colums .wrap{
+    overflow: auto;
+}
+
+
+.col-1 , .col-2{
+    width: 49%;
+    background-image: url(../images/swirl.png);
+    box-shadow: 5px 0px #e9e9e9;
+}
+
+.col-1{
+    float: left;
+}
+
+.col-2{
+    float: right;
+}
+
+#two-colums h2 {
+    text-align: center;
+}
+
+.col-part{
+    font-size: 22px;
+    min-height:200px ;
+}
+
+.col-part img{
+    width: 150px;
+    margin: 0 auto ;
+    border-radius: 50%;
+} 
+
+.col-part-image{
+    width: 40% ;
+    float: left;
+
+}
+
+.col-part-text{
+    width: 60%;
+    float: left;
+    
+} 
+
+.col-part-text > div {
+    font-weight: bold  ;
+}
+
+/* button */
+
+.button{
+    background-color: #fe5f55;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px
+}
+
+/* buttom-sec */
+#buttom-sec{
+    text-align: center;
+    line-height: 3;
+}
+
+
+
+/* tickets page */
+
+form{
+    display: block;
+    text-align: center;
+    margin: 0 auto ;
+    background-image: url(../images/swirl.png);
+    box-shadow: 5px 0px #e9e9e9;
+    width: 30%;
+    padding: 15px;
+}
+
+form select{
+
+margin: 5px;
+}
+
+.background-grey{
+    background-color: #e9e9e9;
+
+}
+
+.check-box{
+    margin-bottom: 20px ;
+}
+
+label{
+    display: none;
+}
+
+
+div.rep-style select   {
+    width: 210px;
+    height: 50px;
+    padding: 10px;
+}
+
+.rep-style{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.inputs{
+    width: 210px;
+    height: 50px;
+}
+
+#tickets-header{
+    text-align: center;
+}
